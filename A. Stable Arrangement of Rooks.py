@@ -1,6 +1,6 @@
-# import sys
-# sys.stdin = open('input2.txt', 'r')
-# sys.stdout = open('output.txt', 'w')
+import sys
+sys.stdin = open('input2.txt', 'r')
+sys.stdout = open('output.txt', 'w')
 
 
 for _ in range(int(input())):
