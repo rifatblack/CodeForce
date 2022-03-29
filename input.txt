@@ -1,11 +1,5 @@
-5
-abcde
-c
-abcde
-b
-x
-y
-aaaaaaaaaaaaaaa
-a
-contest
-t
+4
+100 42
+42 100
+5 42
+100 5
