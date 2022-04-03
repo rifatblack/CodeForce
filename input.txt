@@ -1,3 +1,5 @@
-PAPAINOEL
-JOULUPUKKI
-JOULNAPAOILELUPUKKI
+4
+Icosahedron
+Cube
+Tetrahedron
+Dodecahedron
