@@ -1,5 +1,2 @@
-4
-Icosahedron
-Cube
-Tetrahedron
-Dodecahedron
+35
+TheQuickBrownFoxJumpsOverTheLazyDog
