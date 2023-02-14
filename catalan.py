@@ -10,3 +10,7 @@ def catalan(n):
         res += catalan(i) * catalan(n-i-1)
  
     return res
+
+# Driver Program to test above function
+for i in range(10):
+    print(catalan(i), end=' ')
