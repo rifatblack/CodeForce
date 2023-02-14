@@ -6,5 +6,5 @@ def getFiboNbr(n, memorize={1:0,2:1}):
     if n in memorize:
         return memorize[n]
     else:
-        memorize[n] = getFiboNbr(n - 1, memorize)
+        memorize[n] = getFiboNbr(n - 1, memorize) + getFiboNbr(n - 2, memorize)
         return memorize[n]
