@@ -23,6 +23,14 @@ class Node:
             self.data = data
             
     def searchVal(self, data):
-            if data < self.data:
-                if self.left is None:
-                    return str(data)+" is not Found in the Binary Tree"
+        if data < self.data:
+            if self.left is None:
+                return str(data)+" is not Found in the Binary Tree"
+
+            return self.left.searchVal(data)
+        elif data > self.data:
+            if self.right is None:
+                return str(data)+" is not Found in the Binary Tree"
+            return self.right.searchVal(data)
+        else:
+            return str(self.data) + " is found in the Binary Tree"
