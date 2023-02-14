@@ -34,3 +34,16 @@ class Node:
             return self.right.searchVal(data)
         else:
             return str(self.data) + " is found in the Binary Tree"
+        
+def calculate_branch_sum(node, running_sum, sums):
+    if node is None:
+        return
+
+    new_running_sum = running_sum + node.data
+
+    if node.left is None and node.right is None:
+        sums.append(new_running_sum)
+        return
+
+    calculate_branch_sum(node.left, new_running_sum, sums)
+    calculate_branch_sum(node.right, new_running_sum, sums)
