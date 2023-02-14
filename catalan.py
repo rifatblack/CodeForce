@@ -12,5 +12,6 @@ def catalan(n):
     return res
 
 # Driver Program to test above function
-for i in range(10):
+val=11
+for i in range(val):
     print(catalan(i), end=' ')
