@@ -21,3 +21,8 @@ class Node:
    
         else:
             self.data = data
+            
+    def searchVal(self, data):
+            if data < self.data:
+                if self.left is None:
+                    return str(data)+" is not Found in the Binary Tree"
