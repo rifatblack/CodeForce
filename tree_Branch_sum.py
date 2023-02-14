@@ -15,3 +15,7 @@ class BinaryTree:
 def calculateBranchsums(self, runningSum, sums):
     if self.value is None:
         return
+    newRunningSum = runningSum + self.value
+    if self.left is None and self.right is None:
+        sums.append(newRunningSum)
+        return 
