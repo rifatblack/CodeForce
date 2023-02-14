@@ -11,3 +11,7 @@ class BinaryTree:
         sums = []
         calculateBranchsums(self, 0, sums)
         return sums
+    
+def calculateBranchsums(self, runningSum, sums):
+    if self.value is None:
+        return
