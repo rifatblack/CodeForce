@@ -34,3 +34,9 @@ class Node:
             return self.right.searchVal(data)
         else:
             return str(self.data) + " is found in the Binary Tree"
+        
+#brunch Node Sum
+def branch_sum(root):
+    sums = []
+    calculate_branch_sum(root, 0, sums)
+    return sums
